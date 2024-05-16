@@ -1,0 +1,522 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before *::after {
+    box-sizing: inherit;
+}
+
+*,
+*::before *::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+body {
+    min-width: 320px;
+    font-family: "Open Sans", "Alumni Sans", sans-serif;
+}
+
+
+/* glob */
+
+
+
+.list-rezet {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-rezet {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+.flex {
+
+    display: flex;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* hero */
+
+.hero {
+    background-image: url('../img/1707310164_binomen-ru-p-krasivii-zabor-dlya-zagorodnogo-doma-krasi-76\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.header-container {
+    padding: 20px 0;
+    margin-bottom: 161px;
+    align-items: center;
+}
+
+.hero-glaf {
+    padding-bottom: 165px;
+}
+
+.header-item-link {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.header-list {
+    gap: 30px;
+}
+
+.header-nav {
+    margin-right: auto;
+}
+
+.header-link {
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 32px;
+
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+}
+
+.header-text-link {
+    padding-left: 10px;
+}
+
+
+.glaf-title {
+    max-width: 847px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 64px;
+    color: #fff;
+}
+
+.glaf-bold {
+    font-weight: 800;  
+}
+
+.glaf-link {
+    display: flex;
+    align-items: center;
+    padding: 25px 35px;
+
+
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    background: #ff9c07;
+}
+
+.link {
+    font-weight: 700;
+}
+
+.glaf-link-text {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.glaf-deskr {
+    max-width: 175px;
+
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.glaf-block {
+    gap: 40px;
+    align-items: center;
+}
+
+
+/* product */
+
+.product {
+    margin-bottom: 40px;
+    background-color: #EEEEEE;
+}
+
+.product {
+    padding-top: 50px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 45px;
+}
+
+.product-item {
+    background-color:  #d9d9d9;;
+}
+
+.product-content {
+    padding: 30px 20px;
+}
+
+.product-title3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    color: #000;
+}
+
+
+.product-block1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.product-title {
+    margin: 0;
+    margin-bottom:15px;
+    font-weight: 800;
+    font-size: 61px;
+    line-height: 158%;
+    color: #000;
+}
+
+.product-text {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.product-bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 158%;
+    color: #000;
+}
+
+.product-deskr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 158%;
+    color: #000;
+}
+
+
+/* campyny */
+
+.campany-title-block {
+    width: 321px;
+    border-top: 1px solid black;
+
+}
+
+.campany-title {
+    margin: 0;
+    margin-bottom: 23px;
+
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 158%;
+    color: #000;
+}
+
+.campany-deskr {
+    max-width: 673px;
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    color: #000;
+
+}
+
+.campany-block1 {
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+
+.campany-list {
+    gap: 126px;
+}
+
+
+.campany-title3 {
+    display: flex;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 158%;
+    color: #000;
+}
+
+.campany-item {
+    align-items: center;
+}
+
+
+.campany-number {
+    margin-right: 20px;
+}
+
+.campany-num {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 158%;
+    color: #ff8e09; 
+}
+
+.campany-desker2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 158%;
+    color: #000;   
+}
+
+.campany {
+    padding-bottom: 45px;
+    border-bottom: 1px solid black;
+}
+
+
+
+/* feedback */
+
+.feedback {
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+
+.feedback-title {
+    margin: 0;
+    margin-bottom: 12px;
+
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 158%;
+    color: #000;
+}
+
+.feedback-deskr {
+    margin: 0;
+    margin-bottom: 40px;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: #000;
+}
+
+.feedback-text {
+    max-width: 446px;
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: #000; 
+}
+
+.feedback-title3 {
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    color: #000;
+}
+
+.feedback-list {
+    display: grid;
+    gap: 35px;
+}
+
+.feedback-block2 {
+    background-color: #3B422A;
+}
+
+.feedback-container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 40px;
+}
+
+
+
+.feedback-block2 {
+    
+    padding: 42px 52px;
+}
+
+
+.form {
+    flex-direction: column;
+
+
+}
+
+
+.input-form {
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 30px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: #000;
+
+    background: #fff;
+}
+
+.button-form {
+    width: 237px;
+    background: #ff8e09;
+    padding: 10px;
+
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 158%;
+    color: #fff;
+}
+
+.feedback-titke-form {
+    margin: 0;
+    margin-bottom: 21px;
+
+
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 158%;
+    color: #fff;
+}
+
+.feedback-deskr-form {
+    margin: 0;
+    margin-bottom: 63px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 158%;
+    color: #fff;
+}
+
+/* footer */
+
+.footer {
+    background: #333;
+}
+
+.footer-container {
+        padding: 40px 20px;
+}
+
+
+.footer-block1 {
+    margin-right: auto;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 158%;
+    color: #fff;
+}
+
+.logo-footer {
+    margin-bottom: 10px;
+}
+
+.footer-title3 {
+    margin: 0;
+    margin-bottom: 20px;    
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-list {
+    display: grid;
+    gap: 15px;
+}
+
+.footer-link-item {
+    font-weight: 400;
+    font-size:16px;
+    color: #fff;   
+}
+
+
+
+/* thanks-content */
+
+
+.thanks-content {
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dedede;
+    border-radius: 32px;
+}
+
+.thanks-conteiner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.thanks-text {
+    text-align: center;
+    max-width: 290px;
+}

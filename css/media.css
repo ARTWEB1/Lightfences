@@ -1,0 +1,311 @@
+@media (max-width: 1200px) {
+
+    .header-item-link {
+        font-size: 16px;
+    }
+
+
+    .product-list {
+        gap: 20px;
+    }
+
+
+
+
+   
+}
+
+
+@media (max-width: 1024px) {
+
+
+    .header-container {
+        padding: 20px 20px;
+        display: grid;
+        grid-template-areas: 
+            'logo link'
+            'nav nav'
+        
+        ;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+        grid-area: logo;
+    }
+   
+
+    .header-nav {
+        grid-area: nav;
+
+    }
+
+    .link-btn {
+        grid-area: link;
+        justify-self: self-end;
+    } 
+
+    .header-link {
+        width: 169px;
+    }
+
+
+    .campany-list {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        gap: 20px;
+    }
+
+
+    .campany-item {
+        border: 1px solid #ff8e09;
+        border-radius: 32px;
+        padding: 15px;
+
+    }
+
+    /* .feedback-list {
+        grid-template-columns: 6fr 6fr;
+    } */
+
+    /* .feedback-container {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    /* .feedback-block2 {
+        max-width: 700px;
+    } */
+
+
+
+
+}
+
+
+
+@media (max-width: 960px) {
+
+    
+
+    .product-list {
+        grid-template-columns: repeat(2,6fr);
+    }
+
+    
+
+
+    .feedback-list {
+        display: flex;
+    }
+
+    .feedback-container {
+        display: flex;
+        flex-direction: column;
+    } 
+
+
+    .form {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 6fr 6fr ;
+    }
+
+    .input-form {
+        margin: 0;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .campyne-content-block2 {
+        display: none;
+    }
+
+    .campany-deskr {
+        max-width: 100%;
+    }
+
+    .product {
+        padding-top: 50px;
+    }
+
+
+
+
+
+}
+
+
+
+/* @media (max-width: 768px) {
+   
+
+
+    
+} */
+
+
+@media (max-width: 690px) {
+   
+    .form {
+        grid-template-columns: 12fr;
+    }
+
+    .product-list {
+        grid-template-columns: 12fr;
+    }
+    
+
+    .prod-img {
+        width: 100%;
+    }
+
+    .campany-list {
+        display: grid;
+        grid-template-columns: 12fr;
+        gap: 20px;
+    }
+
+    .campany-desker2 {
+        font-size: 18px;
+    }
+
+    .feedback-titke-form {
+        font-size: 32px;
+    }
+
+    .product-title {
+        font-size: 32px;
+    }
+
+    .product-text {
+        font-size: 24px;
+    }
+
+    .glaf-title {
+        font-size: 48px;
+    }
+
+    .header-container {
+        margin-bottom: 40px;
+    }
+
+    .hero-glaf {
+        padding-bottom: 100px;
+    }
+
+    .feedback-deskr-form {
+        margin-bottom: 30px;
+    }
+
+    .feedback-block2 {
+        padding: 35px 30px;
+    }
+
+    .feedback-list {
+        flex-direction: column;
+    }
+
+    .button-form {
+        width: 1005;
+        margin: 0 auto;
+    }
+
+
+    
+
+    .glaf-deskr {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+    
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+
+    .footer-block2 {
+        margin-bottom: 20px;
+    }
+
+    .footer-block1 {
+        margin: 0;
+    }
+
+    .logo-header {
+        width: 120px;
+    }
+ 
+    .header-link {
+        width: 132px;
+        padding: 7px 20px;
+    }
+
+    .product {
+        padding-top: 50px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .glaf-link {
+        padding: 25px 13px;
+    }
+    
+    .campany-deskr {
+        font-size: 16px;
+    }
+
+    .campany-title {
+        font-size: 32px;
+    }
+
+    .campany-title3 {
+        font-size: 18px;
+    }
+
+    
+    
+    .feedback-titke-form {
+        font-size: 24px;
+    }
+
+    .campany-title-block {
+        width: 290px;
+    }
+
+    .campany-desker2 {
+        font-size: 16px;
+    }
+
+
+
+    .feedback-block2 {
+        padding: 36px 12px;
+    }
+
+
+    
+    
+    
+}
+
+
+@media (max-width: 350px) {
+    
+
+
+    .glaf-title {
+        font-size: 35px;
+    }
+    
+
+    .campany-deskr {
+        font-size: 12px;
+    }
+
+}
+
