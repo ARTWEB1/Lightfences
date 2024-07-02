@@ -65,7 +65,7 @@ body {
 /* hero */
 
 .hero {
-    background-image: url('../img/1707310164_binomen-ru-p-krasivii-zabor-dlya-zagorodnogo-doma-krasi-76\ 1.png');
+    background-image: url('../img/photo_2024-07-02_14-10-02.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -183,6 +183,12 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 4fr);
     gap: 45px;
+    padding-bottom: 30px;
+}
+
+.prod-img {
+    width: 100%;
+    height: 279px;
 }
 
 .product-item {
